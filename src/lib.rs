@@ -1,6 +1,8 @@
 #![feature(lang_items)]
 #![no_std]
+#![feature(unique)]
 extern crate rlibc;
+mod vga_buffer;
 
 #[no_mangle]
 pub extern fn rust_main() {
